@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash:6.4.2
+FROM docker.elastic.co/logstash/logstash:6.8
 
 RUN logstash-plugin install logstash-filter-jdbc_streaming
 RUN logstash-plugin install logstash-filter-aggregate
